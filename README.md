@@ -16,6 +16,8 @@ After you clone the repository create a `.env` file in the root **dir** with thi
 PORT=[Number of the port]
 DB=[Connection string for mongo server]
 ENV=[Type of enviroment 'dev' or 'prod']
+WHITELIST_DEV=[a list of urls allowed in dev enviroment]
+WHITELIST=[a list of urls allowed in production]
 ```
 
 ## Installation
